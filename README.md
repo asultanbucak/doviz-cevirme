@@ -1,16 +1,20 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ve JSX kullanılarak geliştirilmiş, anlık döviz kurlarını takip eden ve dinamik hesaplama yapan modern bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+* **Gerçek Zamanlı Veri:** `FreeCurrencyAPI` üzerinden canlı döviz kurları çekilir.
+* **Anlık Çevrim:** Kullanıcı miktarı girdiğinde seçilen para birimleri arasında otomatik hesaplama yapılır.
+* **Modern Arayüz:** React Hooks (`useState`, `useEffect`) kullanılarak optimize edilmiş kullanıcı deneyimi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Kullanılan Teknolojiler
+* **Kütüphane:** React.js
+* **Geliştirme Ortamı:** Vite & JSX
+* **API Entegrasyonu:** Fetch API & FreeCurrencyAPI
 
-## React Compiler
+## 📦 Kurulum ve Çalıştırma
+Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyin:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Depoyu klonlayın: `git clone https://github.com/asultanbucak/doviz-cevirme.git`
+2. Bağımlılıkları yükleyin: `npm install`
+3. Uygulamayı başlatın: `npm run dev`
