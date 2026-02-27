@@ -29,7 +29,7 @@ Proje, bileşen tabanlı (component-based) bir mimari üzerine inşa edilmiştir
 
 -Kurulum ve Çalıştırma
 
-Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyin:
+ Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1. Depoyu klonlayın: `git clone https://github.com/asultanbucak/doviz-cevirme.git`
 2. Bağımlılıkları yükleyin: `npm install`
