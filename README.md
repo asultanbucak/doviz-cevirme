@@ -1,18 +1,26 @@
-# 💱 Currency Converter App
+Döviz Çevirme Uygulaması
+Bu çalışma, React ve Vite ortamında geliştirilmiş bir döviz hesaplama uygulamasıdır. FreeCurrencyAPI üzerinden çekilen canlı kurlar sayesinde, farklı para birimleri arasında anlık çevrim yapılmasına olanak tanır.
 
-React ve JSX kullanılarak geliştirilmiş, anlık döviz kurlarını takip eden ve dinamik hesaplama yapan modern bir web uygulamasıdır.
+-Teknik Yapı
+Proje, bileşen tabanlı (component-based) bir mimari üzerine inşa edilmiştir. Arayüz tarafında modern bir görünüm için Inter yazı tipi ailesi ve özelleştirilmiş CSS sınıfları tercih edilmiştir.
 
-## 🚀 Özellikler
-* **Gerçek Zamanlı Veri:** `FreeCurrencyAPI` üzerinden canlı döviz kurları çekilir.
-* **Anlık Çevrim:** Kullanıcı miktarı girdiğinde seçilen para birimleri arasında otomatik hesaplama yapılır.
-* **Modern Arayüz:** React Hooks (`useState`, `useEffect`) kullanılarak optimize edilmiş kullanıcı deneyimi.
+-Kullanılan Araçlar
+React & Vite: Proje iskeleti ve hızlı geliştirme ortamı.
 
-## 🛠 Kullanılan Teknolojiler
-* **Kütüphane:** React.js
-* **Geliştirme Ortamı:** Vite & JSX
-* **API Entegrasyonu:** Fetch API & FreeCurrencyAPI
+Axios: API üzerinden döviz verilerini çekmek için HTTP istemcisi.
 
-## 📦 Kurulum ve Çalıştırma
+React Hooks: Uygulama içindeki miktar, kur seçimi ve sonuç yönetimi için useState kullanımı.
+
+Google Fonts: Tipografi tarafında Inter font entegrasyonu.
+
+-Proje Klasör Yapısı
+src/components/currency.jsx: Döviz çevrim mantığının ve API isteklerinin yönetildiği ana bileşen.
+
+src/css/currency.css: Uygulamanın görsel tasarımı ve responsive yapısı.
+
+App.jsx: Bileşenlerin bir araya getirildiği ana kapsayıcı.
+
+-Kurulum ve Çalıştırma
 Projeyi yerelinizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1. Depoyu klonlayın: `git clone https://github.com/asultanbucak/doviz-cevirme.git`
