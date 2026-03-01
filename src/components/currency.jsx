@@ -4,12 +4,9 @@ import axios from 'axios'
 import { useState } from 'react'
 
 let BASE_URL = 'https://api.freecurrencyapi.com/v1/latest'
-let API_KEY = 'fca_live_cgy835tostyA0LOFWYtJr3DYnR11hb2vuHw4kQKh'
-
+const API_KEY = import.meta.env.VITE_CURRENCY_API_KEY;
 
 function Currency() {
-
-  
 
   const [amount, setAmount] =useState();
   const [fromCurrency, setFromCurrency] = useState('USD');
